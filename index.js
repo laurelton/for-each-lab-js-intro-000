@@ -8,4 +8,6 @@ var iterate = function(func) {
   return arr;
 };
 
-var doToArray = function(arr, func) {};
+var doToArray = function(arr, func) {
+  arr.forEach(func);
+};
